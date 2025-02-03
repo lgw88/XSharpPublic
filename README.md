@@ -1,3 +1,10 @@
-Public repository for the source code for the XSharp Compiler, Runtime, Project System and Tools 
-
-This repository now also contains the code that was previously in the XSharpDev repository.
+原有的XSharp的源代码版权归 XSharp 公司所有  
+这里所做的是兼容更多环境和中文化(汉化)  
+  
+XSharp编译器、运行时、项目系统和工具的源代码公共存储库  
+此存储库现在还包含以前在XSharpDev存储库中的代码。  
+  
+  
+2025.2.3 汉化选项和环境  
+2025.2.3 完成编译  
+2025.2.2 改进了VS022编译环境  
