@@ -132,7 +132,7 @@ namespace XSharp.Project
             this.lblDialect.Name = "lblDialect";
             this.lblDialect.Size = new System.Drawing.Size(308, 13);
             this.lblDialect.TabIndex = 8;
-            this.lblDialect.Text = "Dialect:";
+            this.lblDialect.Text = "方言:";
             // 
             // comboOutputType
             // 
@@ -191,7 +191,7 @@ namespace XSharp.Project
             this.lblTargetFramework.Name = "lblTargetFramework";
             this.lblTargetFramework.Size = new System.Drawing.Size(96, 13);
             this.lblTargetFramework.TabIndex = 4;
-            this.lblTargetFramework.Text = "Target Framework:";
+            this.lblTargetFramework.Text = "目标框架:";
             // 
             // comboTargetFramework
             // 
@@ -215,7 +215,7 @@ namespace XSharp.Project
             this.lblOutputType.Name = "lblOutputType";
             this.lblOutputType.Size = new System.Drawing.Size(69, 13);
             this.lblOutputType.TabIndex = 6;
-            this.lblOutputType.Text = "Output Type:";
+            this.lblOutputType.Text = "输出类型:";
             // 
             // tbAssemblyName
             // 
@@ -237,7 +237,7 @@ namespace XSharp.Project
             this.chkAutoGenerateBindingRedirects.Name = "chkAutoGenerateBindingRedirects";
             this.chkAutoGenerateBindingRedirects.Size = new System.Drawing.Size(173, 17);
             this.chkAutoGenerateBindingRedirects.TabIndex = 10;
-            this.chkAutoGenerateBindingRedirects.Text = "Auto-generate binding redirects";
+            this.chkAutoGenerateBindingRedirects.Text = "自动生成绑定重定向";
             this.chkAutoGenerateBindingRedirects.UseVisualStyleBackColor = true;
             // 
             // labelStartupObject
@@ -273,7 +273,7 @@ namespace XSharp.Project
             this.lblResources.Name = "lblResources";
             this.lblResources.Size = new System.Drawing.Size(71, 13);
             this.lblResources.TabIndex = 13;
-            this.lblResources.Text = "Resources:";
+            this.lblResources.Text = "资源:";
             // 
             // labelIcon
             // 
@@ -318,7 +318,7 @@ namespace XSharp.Project
             this.chkPreferNativeVersion.Name = "chkPreferNativeVersion";
             this.chkPreferNativeVersion.Size = new System.Drawing.Size(308, 17);
             this.chkPreferNativeVersion.TabIndex = 18;
-            this.chkPreferNativeVersion.Text = "Prefer native version resource info over managed version info";
+            this.chkPreferNativeVersion.Text = "选择本版本资源信息而不是过度管理的信息";
             this.chkPreferNativeVersion.UseVisualStyleBackColor = true;
             // 
             // chkVulcanCompatibleResources

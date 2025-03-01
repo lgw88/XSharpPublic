@@ -34,7 +34,7 @@ namespace XSharp.Project
         /// </summary>
         public XSharpBuildEventsPropertyPage()
         {
-            this.PageName = "Build Events";
+            this.PageName = "编译事件";
             this.PerConfig = true;
         }
 

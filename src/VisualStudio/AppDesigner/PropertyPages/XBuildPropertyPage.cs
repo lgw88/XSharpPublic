@@ -31,7 +31,7 @@ namespace XSharp.Project
         /// </summary>
         public XSharpBuildPropertyPage()
         {
-            this.PageName = "Build";
+            this.PageName = "编译";
             this.PerConfig = true;
         }
   

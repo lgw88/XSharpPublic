@@ -35,7 +35,7 @@ namespace XSharp.Project
         FrameworkNameConverter converterFramework;
         public XSharpGeneralPropertyPage()
         {
-            this.PageName = "Application";
+            this.PageName = "应用";
             this.PerConfig = false;
             converterDialect = new DialectConverter();
             converterFramework = new FrameworkNameConverter();

@@ -215,7 +215,7 @@ namespace XSharp.Project
             this.lblSigning.Name = "lblSigning";
             this.lblSigning.Size = new System.Drawing.Size(42, 13);
             this.lblSigning.TabIndex = 0;
-            this.lblSigning.Text = "Signing";
+            this.lblSigning.Text = "签名";
             // 
             // outputTableLayoutPanel
             // 
@@ -260,7 +260,7 @@ namespace XSharp.Project
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(39, 13);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "Output";
+            this.outputLabel.Text = "输出";
             // 
             // treatWarningsAsErrorsTableLayoutPanel
             // 
@@ -305,7 +305,7 @@ namespace XSharp.Project
             this.treatWarningsAsErrorsLabel.Name = "treatWarningsAsErrorsLabel";
             this.treatWarningsAsErrorsLabel.Size = new System.Drawing.Size(120, 13);
             this.treatWarningsAsErrorsLabel.TabIndex = 0;
-            this.treatWarningsAsErrorsLabel.Text = "Treat warnings as errors";
+            this.treatWarningsAsErrorsLabel.Text = "将警告视为错误";
             // 
             // lblWarningLevel
             // 
@@ -349,7 +349,7 @@ namespace XSharp.Project
             this.lblErrorsAndWarnings.Name = "lblErrorsAndWarnings";
             this.lblErrorsAndWarnings.Size = new System.Drawing.Size(103, 13);
             this.lblErrorsAndWarnings.TabIndex = 0;
-            this.lblErrorsAndWarnings.Text = "Errors and Warnings";
+            this.lblErrorsAndWarnings.Text = "错误和警告";
             // 
             // lblErrorsAndWarningsLine
             // 
@@ -390,7 +390,7 @@ namespace XSharp.Project
             this.lblGeneral.Name = "lblGeneral";
             this.lblGeneral.Size = new System.Drawing.Size(44, 13);
             this.lblGeneral.TabIndex = 0;
-            this.lblGeneral.Text = "General";
+            this.lblGeneral.Text = "常规";
             // 
             // lblGeneralLine
             // 
@@ -714,7 +714,7 @@ namespace XSharp.Project
             this.rbWarningNone.Name = "rbWarningNone";
             this.rbWarningNone.Size = new System.Drawing.Size(51, 17);
             this.rbWarningNone.TabIndex = 19;
-            this.rbWarningNone.Text = "&None";
+            this.rbWarningNone.Text = "&n.无";
             this.rbWarningNone.CheckedChanged += new System.EventHandler(this.rbWarningNone_CheckedChanged);
             // 
             // rbWarningAll
@@ -728,7 +728,7 @@ namespace XSharp.Project
             this.rbWarningAll.Name = "rbWarningAll";
             this.rbWarningAll.Size = new System.Drawing.Size(36, 17);
             this.rbWarningAll.TabIndex = 20;
-            this.rbWarningAll.Text = "A&ll";
+            this.rbWarningAll.Text = "&l.全部";
             this.rbWarningAll.CheckedChanged += new System.EventHandler(this.rbWarningAll_CheckedChanged);
             // 
             // rbWarningSpecific
@@ -742,7 +742,7 @@ namespace XSharp.Project
             this.rbWarningSpecific.Name = "rbWarningSpecific";
             this.rbWarningSpecific.Size = new System.Drawing.Size(111, 17);
             this.rbWarningSpecific.TabIndex = 21;
-            this.rbWarningSpecific.Text = "Specif&ic warnings:";
+            this.rbWarningSpecific.Text = "&i.指定警告:";
             this.rbWarningSpecific.CheckedChanged += new System.EventHandler(this.rbWarningSpecific_CheckedChanged);
             // 
             // chkSuppressRCWarnings

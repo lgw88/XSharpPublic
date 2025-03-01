@@ -31,7 +31,7 @@ namespace XSharp.Project
         /// </summary>
         public XSharpLanguagePropertyPage()
         {
-            this.PageName = "Language";
+            this.PageName = "语法";
             this.PerConfig = false;
         }
 

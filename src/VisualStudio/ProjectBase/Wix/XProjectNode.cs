@@ -288,7 +288,7 @@ namespace Microsoft.VisualStudio.Project
 
                     case VsCommands.ProjectProperties:
                         // Sets the menu command text to 'ProjectName &Properties' where ProjectName is the name of this project
-                        string propertiesMenuCommandText = Path.GetFileNameWithoutExtension(this.ProjectFile) + " &Properties";
+                        string propertiesMenuCommandText = Path.GetFileNameWithoutExtension(this.ProjectFile) + " &属性";
                         NativeMethods.OLECMDTEXT.SetText(pCmdText, propertiesMenuCommandText);
                         result = QueryStatusResult.SUPPORTED | QueryStatusResult.ENABLED;
                         return (int)VSConstants.S_OK;

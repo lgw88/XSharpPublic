@@ -28,11 +28,11 @@ PROPERTY _Parent AS OBJECT GET SELF:Parent
 
 
 	// Todo
-[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the StatusBar Text.")];
+[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 在状态栏中显示的文本")];
 [System.ComponentModel.DefaultValue("")];
 PROPERTY StatusBarText AS STRING AUTO
 	// Todo
-[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Specifies the text that appears as a ToolTip for a control.")];
+[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定作为控件的工具提示显示的文本。")];
 [System.ComponentModel.DefaultValue("")];
 PROPERTY ToolTipText AS STRING
 	GET
@@ -82,11 +82,11 @@ PROPERTY ColorSource AS INT AUTO
 PROPERTY SpecialEffect AS INT AUTO
 
 	// Text of the Button
-[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the Text of the Control")];
+[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 控件的文本")];
 [System.ComponentModel.DefaultValue("")];
 PROPERTY Caption AS STRING GET SELF:Text SET SELF:Text :=VALUE
 
-[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the ZOrder of the Control")];
+[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 控件显示顺序")];
 [System.ComponentModel.DefaultValue(0)];
 PROPERTY ZOrderSet AS INT
     GET

@@ -42,7 +42,7 @@
 				VAR newFont := System.Drawing.Font{ ft:Name, ft.Size, (System.Drawing.FontStyle)style, ft.Unit}
 				SELF:Font := newFont
 			ENDIF
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set if the Font is bold")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定文字是否粗体")];
 		[System.ComponentModel.DefaultValue(FALSE)];
         PROPERTY FontBold AS LOGIC
 			GET
@@ -59,7 +59,7 @@
 		END PROPERTY
 
 		// Todo
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set if the Font is italic")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定文字是否斜体")];
         [System.ComponentModel.DefaultValue(FALSE)];
 		PROPERTY FontItalic AS LOGIC
 			GET
@@ -76,7 +76,7 @@
 		END PROPERTY
 
 		// Todo
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set if the Font is underline")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定文字是否带有下划线")];
         [System.ComponentModel.DefaultValue(FALSE)];
         PROPERTY FontUnderline AS LOGIC
 			GET
@@ -93,7 +93,7 @@
 		END PROPERTY
 
 		// Todo
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set if the Font is strikethru")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定文字是否带有删除线")];
 		[System.ComponentModel.DefaultValue(FALSE)];
         PROPERTY FontStrikeThru AS LOGIC
 			GET
@@ -110,7 +110,7 @@
 		END PROPERTY
 
 		// Todo
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the Font size")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定对象文本的字体大小")];
 		[System.ComponentModel.DefaultValue(9)];
         PROPERTY FontSize AS Single
 			GET
@@ -131,7 +131,7 @@
 		END PROPERTY
 
 		// Todo
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the Font Name")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定对象文本的字体名")];
 		[System.ComponentModel.DefaultValue("Arial")];
         PROPERTY FontName AS STRING
 			GET

@@ -56,12 +56,12 @@ namespace XSharp.Project
             preBuildGroupBox.Size = new System.Drawing.Size(544, 152);
             preBuildGroupBox.TabIndex = 0;
             preBuildGroupBox.TabStop = false;
-            preBuildGroupBox.Text = "P&re-build Event Command Line";
+            preBuildGroupBox.Text = "&r.编译前事件命令行";
             // 
             // preBuildEditor
             // 
-            this.preBuildEditor.ButtonText = "Ed&it Pre-build...";
-            this.preBuildEditor.EditorFormText = "Pre-build Event Command Line";
+            this.preBuildEditor.ButtonText = "&i.编辑编译前事件...";
+            this.preBuildEditor.EditorFormText = "编译前事件命令行";
             this.preBuildEditor.Location = new System.Drawing.Point(20, 20);
             this.preBuildEditor.Margin = new System.Windows.Forms.Padding(4);
             this.preBuildEditor.Name = "preBuildEditor";
@@ -79,15 +79,15 @@ namespace XSharp.Project
             postBuildGroupBox.Size = new System.Drawing.Size(544, 197);
             postBuildGroupBox.TabIndex = 1;
             postBuildGroupBox.TabStop = false;
-            postBuildGroupBox.Text = "P&ost-build Event Command Line";
+            postBuildGroupBox.Text = "&o.编译后事件命令行";
             // 
             // postBuildEditor
             // 
             this.postBuildEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.postBuildEditor.ButtonText = "Edit Post-b&uild...";
-            this.postBuildEditor.EditorFormText = "Post-build Event Command Line";
+            this.postBuildEditor.ButtonText = "&u.编辑编译后事件...";
+            this.postBuildEditor.EditorFormText = "编译后事件命令行";
             this.postBuildEditor.Location = new System.Drawing.Point(20, 20);
             this.postBuildEditor.Margin = new System.Windows.Forms.Padding(4);
             this.postBuildEditor.Name = "postBuildEditor";
@@ -115,7 +115,7 @@ namespace XSharp.Project
             runLabel.Name = "runLabel";
             runLabel.Size = new System.Drawing.Size(126, 13);
             runLabel.TabIndex = 1;
-            runLabel.Text = "Ru&n the post-build event:";
+            runLabel.Text = "&n.运行编译后事件:";
             // 
             // XBuildEventsPropertyPagePanel
             // 

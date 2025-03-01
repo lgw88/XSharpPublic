@@ -34,7 +34,7 @@ namespace XSharp.Project
         /// </summary>
         public XSharpDebugPropertyPage()
         {
-            this.PageName = "Debug";
+            this.PageName = "调试";
             this.PerConfig = true;
             converterDebugType = new DebugTypeConverter();
 

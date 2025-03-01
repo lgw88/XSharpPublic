@@ -119,7 +119,7 @@
     </BoolProperty.DataSource>
   </BoolProperty>  
   <BoolProperty Name="nowin32manifest"
-                DisplayName="Suppress default Win32 manifest"
+                DisplayName="禁止默认Win32清单"
 				Description="Use The -nowin32manifest option to instruct the compiler not to embed any application manifest into the executable file." 
                 Category="Resources">
     <BoolProperty.DataSource>

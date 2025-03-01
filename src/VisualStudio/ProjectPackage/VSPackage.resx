@@ -138,12 +138,12 @@
     <value>Template.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="110" xml:space="preserve">
-    <value>X# Visual Studio Project System</value>
+    <value>X# Visual Studio 项目中文版</value>
     <comment>Text that appears in the list window on the Help about dialog</comment>
   </data>
   <data name="112" xml:space="preserve">
-    <value>The X# Project system allows you to edit, compile and debug your X# application inside Visual Studio.
-Copyright (c) XSharp BV 2015-2025. All rights reserved.
+    <value>X#项目系统允许您在Visual Studio中编辑、编译和调试X#应用程序。
+Copyright (c) XSharp BV 2015-2025. 原代码版权所有。(LGW 2025汉化和改进)
 http://www.xsharp.eu</value>
     <comment>Text that appears in the details window on the Help about dialog</comment>
   </data>

@@ -171,7 +171,7 @@ namespace XSharp.Project
             this.lblMemVar.Name = "lblMemVar";
             this.lblMemVar.Size = new System.Drawing.Size(105, 13);
             this.lblMemVar.TabIndex = 25;
-            this.lblMemVar.Text = "Memory variables";
+            this.lblMemVar.Text = "内存变量";
             // 
             // lblGeneral
             // 
@@ -183,7 +183,7 @@ namespace XSharp.Project
             this.lblGeneral.Name = "lblGeneral";
             this.lblGeneral.Size = new System.Drawing.Size(51, 13);
             this.lblGeneral.TabIndex = 0;
-            this.lblGeneral.Text = "General";
+            this.lblGeneral.Text = "常规";
             // 
             // chkLB
             // 
@@ -360,7 +360,7 @@ namespace XSharp.Project
             this.lblNamespaces.Name = "lblNamespaces";
             this.lblNamespaces.Size = new System.Drawing.Size(79, 13);
             this.lblNamespaces.TabIndex = 14;
-            this.lblNamespaces.Text = "Namespaces";
+            this.lblNamespaces.Text = "命名空间";
             // 
             // lblPreprocessor
             // 
@@ -372,7 +372,7 @@ namespace XSharp.Project
             this.lblPreprocessor.Name = "lblPreprocessor";
             this.lblPreprocessor.Size = new System.Drawing.Size(81, 13);
             this.lblPreprocessor.TabIndex = 17;
-            this.lblPreprocessor.Text = "Preprocessor";
+            this.lblPreprocessor.Text = "预处理器";
             // 
             // chkNoStandardDefs
             // 

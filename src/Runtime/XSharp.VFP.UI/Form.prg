@@ -55,23 +55,23 @@ BEGIN NAMESPACE XSharp.VFP.UI
         PROPERTY ThisFormSet AS FormSet AUTO
 
 
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set the Text of the Form (Title)")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Get/Set 指定窗体标题显示文本")];
 [System.ComponentModel.DefaultValue("")];
         PROPERTY Caption AS STRING GET SELF:Text SET SELF:Text :=VALUE
 
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Map to MaximizeBox")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定窗体是否有最大化按钮")];
         [System.ComponentModel.DefaultValue(true)];
         PROPERTY MaxButton AS LOGIC GET SELF:MaximizeBox SET SELF:MaximizeBox := VALUE
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Map to MinimizeBox")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定窗体是否有最小化按钮")];
         [System.ComponentModel.DefaultValue(true)];
         PROPERTY MinButton AS LOGIC GET SELF:MinimizeBox SET SELF:MinimizeBox := VALUE
 
 			// Todo Add/Remove the Close item to the System Menu
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Indicate if ControlBox is visible")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定是否显示ControlBox")];
         [System.ComponentModel.DefaultValue(true)];
         PROPERTY Closable AS LOGIC GET SELF:ControlBox SET SELF:ControlBox := VALUE
 
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Set the FormBorderStyle")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定窗体边框样式")];
         [System.ComponentModel.DefaultValue(1)];
         PROPERTY TitleBar AS INT
 		SET
@@ -83,7 +83,7 @@ BEGIN NAMESPACE XSharp.VFP.UI
 		END SET
 		END PROPERTY
 
-		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("Indicate if the Form is MDI")];
+		[System.ComponentModel.Category("VFP Properties"),System.ComponentModel.Description("指定窗体是否为MDI")];
         [System.ComponentModel.DefaultValue(false)];
         PROPERTY MDIForm AS LOGIC AUTO := FALSE
 
@@ -206,7 +206,7 @@ BEGIN NAMESPACE XSharp.VFP.UI
 
 
 		PRIVATE _VFPLoad AS VFPOverride
-		[System.ComponentModel.Category("VFP Events"),System.ComponentModel.Description("Get/Set the name of the Load method. Occurs just before an object is created.")];
+		[System.ComponentModel.Category("VFP Events"),System.ComponentModel.Description("Load方法在创建窗体之前发生")];
         [System.ComponentModel.DefaultValue("")];
         PROPERTY vfpLoad AS STRING GET _VFPLoad?:SendTo SET Set_Load( VFPOverride{SELF, VALUE} )
 
@@ -221,7 +221,7 @@ BEGIN NAMESPACE XSharp.VFP.UI
 			ENDIF
 
 		PRIVATE _VFPQueryUnload AS VFPOverride
-		[System.ComponentModel.Category("VFP Events"),System.ComponentModel.Description("Get/Set the name of the QueryUnload method. Occurs before a form is unloaded.")];
+		[System.ComponentModel.Category("VFP Events"),System.ComponentModel.Description("QueryUnload方法在窗体卸载之前发生")];
         [System.ComponentModel.DefaultValue("")];
         PROPERTY vfpQueryUnLoad AS STRING GET _VFPQueryUnload?:SendTo SET Set_QueryUnload( VFPOverride{SELF, VALUE} )
 

@@ -33,7 +33,7 @@ namespace XSharp.Project
         /// </summary>
         public XSharpDialectPropertyPage()
         {
-            this.PageName = "Dialect";
+            this.PageName = "方言";
             this.PerConfig = false;
         }
 

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="XSharp.ProjectSystem.2022" Version="2.22.0.1" Language="en-US" Publisher="XSharp BV" />
-        <DisplayName>XSharp VS Integration for 2022 and later</DisplayName>
+        <Identity Id="XSharp.ProjectSystem.2022" Version="2.22.0.1" Language="zh-CN" Publisher="XSharp BV" />
+        <DisplayName>XSharp 2025中文版 (Visual Studio 2022)</DisplayName>
         <Description xml:space="preserve">X# Visual Studio Integration.
 Includes a Project System, Language Service , Debugger Support, Custom Editors etc.</Description>
         <MoreInfo>http://www.xsharp.eu</MoreInfo>
